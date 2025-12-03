@@ -60,8 +60,8 @@ int main() {
     std::cout << "The truncated integer grade is: " << final_grade_int << std::endl;
 
     // --- TASK 2: Use static_cast to round properly ---
-    
-    // int rounded_grade = ...
+    int rounded_grade = static_cast<int>(precise_average + 0.5);
+    std::cout << "rounded_grade: " << rounded_grade << std::endl;
     
     // --- TASK 3: Print your rounded grade ---
     // std::cout << "The rounded grade is: " << rounded_grade << std::endl;

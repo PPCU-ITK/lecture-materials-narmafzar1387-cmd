@@ -13,7 +13,7 @@ Instead of installing software, we'll use a cloud-based environment.
 2. **Verify Your Installation:**  
    * Once your Codespace loads, a terminal should automatically open at the bottom. If not, open one (Ctrl+ ` or View > Terminal).  
    * Type the following command and press Enter:
-     ```bash
+     ```bash            
      g++ --version
      ```
    * You should see a message showing the g++ version (e.g., g++ (Ubuntu ...) ...). This confirms your C++ compiler is ready to go.  

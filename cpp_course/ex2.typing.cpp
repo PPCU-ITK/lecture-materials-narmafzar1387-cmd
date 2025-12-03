@@ -53,7 +53,7 @@ int main() {
     // --- TASK 4: Print your new variables here ---
     std::cout << "Pi is: " << pi << std::endl;
     std::cout << "Initial is: " << initial << std::endl;
-    std::cout << "is_cpp_fun'is " << is_cpp_fun  <<std::endl;
+    
     std::cout << "---------------------------------------" << std::endl;
     return 0;
 }
